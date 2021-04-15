@@ -1,0 +1,437 @@
+.general-book-section {
+  padding: 50px 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-section .general-book-div {
+  padding: 50px 50px 30px 50px;
+  margin: 0;
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
+}
+
+.general-book-section .general-book-div .container-general-center {
+  width: 100%;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.general-book-section .general-book-div .heading-div {
+  padding: 40px 0;
+}
+
+.general-book-section .general-book-div .heading-div .heading-inner-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-section .general-book-div .heading-div .heading-inner-div h1 {
+  font-weight: 800;
+  font-size: 62px;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0 0 10px 0;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.general-book-section .general-book-div .general-book-root .general-top {
+  padding: 0 0;
+  margin: 0 0 60px 0;
+  position: relative;
+  min-height: calc(100vh - 600px);
+}
+
+.general-book-section .general-book-div .general-book-root .general-bottom {
+  padding: 0 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .mr-20 {
+  margin-right: 20px;
+}
+
+.general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .btn.btn-common-black {
+  min-width: 180px;
+}
+
+.general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .btn-common-primary {
+  min-width: 180px;
+  font-size: 18px;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div {
+  margin: 0 0 20px 0;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session {
+  background: #191919;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ff5f00;
+  letter-spacing: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #191919;
+  min-height: 74px;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session span.bg-custom-icon {
+  margin: 0 5px 0 0;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session .text-span {
+  text-decoration: underline;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session:hover {
+  border: 1px solid #ff5f00;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card {
+  padding: 0;
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root {
+  padding: 0;
+  margin: 0 0 10px 0;
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .img-responsive {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div {
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div .video-overlay-content-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div .video-overlay-content-row .label-div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div .video-overlay-content-row .label-div ul li {
+  margin: 0 8px 0 0;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div .video-overlay-content-row .label-div ul .link-black {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: 0;
+  padding: 6px 30px 5px 30px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div .video-overlay-content-row .label-div ul .link-black:hover {
+  background: black;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div {
+  width: 50%;
+  padding: 15px 0 10px 30px;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div h2 {
+  font-size: 42px;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: 0;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div p {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0;
+  line-height: 1.3;
+  margin: 0 0 10px 0;
+  display: block;
+  width: 100%;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .icon-span {
+  width: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px 0 0;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0;
+  width: calc(100% - 35px);
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .dot-span {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 100px;
+  margin: 0 5px 2px 5px;
+}
+
+.general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .link {
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .general-book-section .general-book-div {
+    padding: 20px 20px 20px 20px;
+  }
+  .general-book-section .general-book-div .heading-div {
+    padding: 20px 0 20px 0;
+  }
+  .general-book-section .general-book-div .heading-div .heading-inner-div h1 {
+    font-size: 30px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session {
+    font-size: 13px;
+    padding: 10px 10px;
+    min-height: 60px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session .bg-custom-icon {
+    margin: 0 4px 0 0;
+    width: 21px;
+    height: 22px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root {
+    width: 100%;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .img-responsive {
+    height: 165px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div .video-overlay-content-row .label-div ul .link-black {
+    font-size: 10px;
+    line-height: 1.4;
+    padding: 5px 12px 4px 12px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div {
+    padding: 10px 0 20px 0;
+    width: 100%;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div h2 {
+    font-size: 30px;
+    margin: 0 0 6px 0;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div p {
+    font-size: 14px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .icon-span {
+    width: 16px;
+    margin: 0 6px 0 0;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .icon-span .calendar-time-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .dot-span {
+    height: 5px;
+    width: 5px;
+    margin: 0 4px 2px 4px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .text {
+    font-size: 12px;
+    width: calc(100% - 25px);
+  }
+  .general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .general-book-section .general-book-div {
+    padding: 30px 30px 30px 30px;
+  }
+  .general-book-section .general-book-div .heading-div {
+    padding: 20px 0 20px 0;
+  }
+  .general-book-section .general-book-div .heading-div .heading-inner-div h1 {
+    font-size: 42px;
+  }
+  .general-book-section .general-book-div .general-book-root .general-top {
+    min-height: auto;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session {
+    font-size: 14px;
+    padding: 10px 10px;
+    min-height: 60px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .button-oto-session-div .btn.btn-oto-session .bg-custom-icon {
+    margin: 0 5px 0 0;
+    width: 21px;
+    height: 22px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .img-responsive {
+    height: 165px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .img-thumb-root .video-overlay-content-div .video-overlay-content-row .label-div ul .link-black {
+    font-size: 10px;
+    line-height: 1.4;
+    padding: 5px 12px 4px 12px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div {
+    padding: 10px 0 10px 25px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div h2 {
+    font-size: 30px;
+    margin: 0 0 6px 0;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div p {
+    font-size: 14px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .icon-span {
+    width: 16px;
+    margin: 0 6px 0 0;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .icon-span .calendar-time-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .dot-span {
+    height: 5px;
+    width: 5px;
+    margin: 0 4px 2px 4px;
+  }
+  .general-book-section .general-book-div .general-book-root .book-a-seat-common-inner .booking-div-card .booking-div-card-inner .text-desc-div .time-box .text {
+    font-size: 12px;
+    width: calc(100% - 25px);
+  }
+  .general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-book-section .general-book-div .general-book-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=book-a-seat-style.css.map */

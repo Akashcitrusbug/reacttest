@@ -1,0 +1,255 @@
+.select-category-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .select-category-div {
+    padding: 100px 30px;
+    margin: 0;
+    position: relative;
+    background: url(../images/background/select-category-background.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    .select-category-root-div {
+      padding: 30px;
+      margin: 0;
+      position: relative;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 11px;
+      min-height: calc(100vh - 200px);
+
+      .select-category-img-root {
+        position: absolute;
+        left: -100px;
+        bottom: -70px;
+
+        .img-fluid {
+          width: 260px;
+          max-width: 100%;
+          height: 280px;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .select-category-top-area-div {
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+        .skip-div {
+          display: flex;
+          justify-content: flex-end;
+          margin: 0 0 30px 0;
+          position: relative;
+
+          .skip-link {
+            font-weight: 400;
+            font-size: 18px;
+            color: #fff;
+            letter-spacing: 0;
+            display: inline-block;
+            transition: all 0.8s;
+
+            &:hover {
+              color: #ff5f00;
+            }
+          }
+        }
+      }
+
+      .select-category-body-area-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 310px);
+        padding: 0 0 50px 0;
+
+        .select-category-body-center {
+          padding: 0;
+          margin: 0;
+          position: relative;
+          width: 100%;
+
+          .heading-div {
+            h2 {
+              font-weight: 700;
+              font-size: 42px;
+              line-height: 1.3;
+              color: #fff;
+              letter-spacing: 0;
+              display: block;
+              width: 100%;
+              text-align: center;
+              margin: 0 0 40px 0;
+            }
+          }
+
+          .filter-category-root-div {
+            .filter-category-inner {
+              padding: 0;
+              margin: 0 auto;
+              max-width: 550px;
+
+              .filter-list-ul {
+                justify-content: center;
+
+                li {
+                  margin: 0 15px 15px 0;
+
+                  .filter-link {
+                    border-radius: 24px;
+                    font-size: 18px;
+                    line-height: 24px;
+                    min-height: 44px;
+                    padding: 6px 40px 5px 40px;
+
+                    .cancel-icon-span {
+                      background-color: #191919;
+                      color: #fff;
+                      font-size: 14px;
+                      height: 26px;
+                      width: 26px;
+                      top: -10px;
+                      right: -10px;
+                      border: 1px solid #fff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .select-category-section {
+    .select-category-div {
+      padding: 50px 5px;
+      min-height: 100vh;
+
+      .select-category-root-div {
+        padding: 20px;
+        min-height: calc(100vh - 100px);
+
+        .select-category-top-area-div {
+          .skip-div {
+            .skip-link {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .select-category-img-root {
+          left: -35px;
+          bottom: -50px;
+
+          .img-fluid {
+            width: 140px;
+            max-width: 100%;
+            height: 170px;
+          }
+        }
+
+        .select-category-body-area-div {
+          min-height: calc(100vh - 190px);
+
+          .select-category-body-center {
+            .heading-div {
+              h2 {
+                font-size: 24px;
+                margin: 0 0 40px 0;
+              }
+            }
+
+            .filter-category-root-div {
+              .filter-category-inner {
+                .filter-list-ul {
+                  li {
+                    margin: 0 10px 10px 0;
+
+                    .filter-link {
+                      font-size: 14px;
+                      min-height: 36px;
+                      padding: 6px 20px 5px 20px;
+
+                      .cancel-icon-span {
+                        font-size: 12px;
+                        height: 20px;
+                        width: 20px;
+                        top: -7px;
+                        right: -7px;
+                        padding: 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .select-category-section {
+    .select-category-div {
+      .select-category-root-div {
+        .select-category-img-root {
+          left: -65px;
+          bottom: -70px;
+
+          .img-fluid {
+            width: 220px;
+            max-width: 100%;
+            height: 245px;
+          }
+        }
+
+        .select-category-body-area-div {
+          min-height: calc(100vh - 320px);
+
+          .select-category-body-center {
+            .heading-div {
+              h2 {
+                font-size: 24px;
+                margin: 0 0 40px 0;
+              }
+            }
+
+            .filter-category-root-div {
+              .filter-category-inner {
+                .filter-list-ul {
+                  li {
+                    margin: 0 10px 10px 0;
+
+                    .filter-link {
+                      font-size: 14px;
+                      min-height: 36px;
+                      padding: 6px 20px 5px 20px;
+
+                      .cancel-icon-span {
+                        font-size: 12px;
+                        height: 20px;
+                        width: 20px;
+                        top: -7px;
+                        right: -7px;
+                        padding: 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

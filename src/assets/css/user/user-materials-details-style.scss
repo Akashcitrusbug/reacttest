@@ -1,0 +1,294 @@
+.materials-details-section {
+  padding: 20px 0 40px 0;
+  margin: 0;
+  position: relative;
+
+  .materials-details-div {
+    .heading-div {
+      padding: 0;
+      margin: 0 auto 30px auto;
+      position: relative;
+
+      h2 {
+        padding: 0;
+        margin: 0;
+        display: block;
+        width: 100%;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.4;
+        color: #fff;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+.materials-details-list-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .materials-list-root-div {
+    .mtd-common-row-box {
+      padding: 0;
+      margin: 0 0 30px 0;
+      position: relative;
+
+      .mtd-common-row {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 6px;
+      }
+
+      .mtd-video-img-thumb {
+        padding: 0;
+        margin: 0 0 0 0;
+        position: relative;
+        width: 186px;
+
+        .img-thumb {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+
+        .img-responsive {
+          width: 100%;
+          height: 135px;
+          object-fit: cover;
+          object-position: top;
+          transition: 0.8s;
+          border-radius: 6px;
+        }
+      }
+
+      .mtd-content-div {
+        width: calc(100% - 186px);
+        padding: 25px 20px 20px 20px;
+
+        .mtd-content-row {
+          display: flex;
+          align-items: flex-start;
+          flex-wrap: wrap;
+          width: 100%;
+          position: relative;
+
+          .mtd-content-top-row {
+            width: 100%;
+
+            .link {
+              color: inherit;
+            }
+
+            h3 {
+              font-weight: 600;
+              display: block;
+              margin: 0 0 5px 0;
+              font-size: 18px;
+              color: #fff;
+              letter-spacing: 0;
+              line-height: 1.4;
+              max-width: 250px;
+            }
+
+            h4 {
+              font-weight: 400;
+              font-size: 12px;
+              display: block;
+              color: #ff5f00;
+              letter-spacing: 0;
+              line-height: 16px;
+            }
+
+            .btn.btn-download-icon {
+              border: 1px solid rgba(255, 255, 255, 0.12);
+              border-radius: 3px;
+              height: 30px;
+              width: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+              padding: 2px;
+              cursor: pointer;
+              transition: all 0.8s;
+
+              &:hover {
+                background-color: #000;
+                border-color: #000;
+                border-radius: 4px;
+              }
+            }
+
+            .mtd-content-dw-row {
+              padding: 0;
+              margin: 0;
+              position: relative;
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-end;
+              flex-wrap: wrap;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.materials-banner-section {
+  padding: 80px 0 40px 0;
+  margin: 0;
+  position: relative;
+
+  .materials-banner-div {
+    .materials-banner-root {
+      min-height: 260px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+      background-size: cover;
+      background-position: center;
+      border-radius: 6px;
+      height: 100%;
+
+      .banner-heading-div {
+        background: rgba(0, 0, 0, 0.41);
+        border-radius: 6px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px;
+
+        h1 {
+          font-weight: 800;
+          font-size: 24px;
+          color: #fff;
+          letter-spacing: 0;
+          text-align: center;
+          font-family: "Moderat Extended", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .materials-details-section {
+    padding: 20px 0 40px 0;
+
+    .materials-details-div {
+      .heading-div {
+        margin: 0 auto 20px auto;
+
+        h2 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .materials-banner-section {
+    padding: 40px 0 20px 0;
+
+    .materials-banner-div {
+      .materials-banner-root {
+        min-height: 160px;
+
+        .banner-heading-div {
+          h1 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .materials-details-list-div {
+    .materials-list-root-div {
+      .mtd-common-row-box {
+        .mtd-video-img-thumb {
+          width: 130px;
+
+          .img-responsive {
+            height: 120px;
+          }
+        }
+
+        .mtd-content-div {
+          width: calc(100% - 130px);
+          padding: 20px 15px 20px 15px;
+
+          .mtd-content-row {
+            .mtd-content-top-row {
+              h3 {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .materials-details-section {
+    padding: 40px 0 40px 0;
+
+    .materials-details-div {
+      .heading-div {
+        h2 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .materials-banner-section {
+    padding: 50px 0 20px 0;
+
+    .materials-banner-div {
+      .materials-banner-root {
+        min-height: 220px;
+      }
+    }
+  }
+
+  .materials-details-list-div {
+    .materials-list-root-div {
+      .mtd-common-row-box {
+        .mtd-video-img-thumb {
+          width: 150px;
+
+          .img-responsive {
+            height: 120px;
+          }
+        }
+
+        .mtd-content-div {
+          width: calc(100% - 150px);
+          padding: 20px 15px 20px 15px;
+
+          .mtd-content-row {
+            .mtd-content-top-row {
+              h3 {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

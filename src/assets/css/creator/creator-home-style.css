@@ -1,0 +1,464 @@
+.schedule-main-creator-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.schedule-main-creator-section .schedule-main-creator-div {
+  padding: 75px 0 65px 0;
+  margin: 0;
+  position: relative;
+}
+
+.schedule-main-creator-section .schedule-main-creator-div .heading-inner-div {
+  padding: 0;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.schedule-main-creator-section .schedule-main-creator-div .heading-inner-div .content-root {
+  padding: 0;
+}
+
+.schedule-main-creator-section .schedule-main-creator-div .heading-inner-div .content-root h1 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.3;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0 0 10px 0;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.schedule-main-creator-section .schedule-main-creator-div .heading-inner-div .content-root p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #7e7e7e;
+  letter-spacing: 0;
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+.schedule-main-creator-section .schedule-main-creator-div .button-tab-div .button-tab-box .btn.btn-big-black {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  min-height: 100px;
+  border-radius: 13px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  margin: 0 0 10px 0;
+}
+
+.schedule-main-creator-section .schedule-main-creator-div .button-tab-div .button-tab-box .btn.btn-big-black.active {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(257deg, #ef4443 0%, #ef6b18 87%);
+}
+
+.general-oto-streams-section .general-oto-streams-div .general-oto-heading-div {
+  padding: 0;
+  margin: 0 0 25px 0;
+  position: relative;
+}
+
+.general-oto-streams-section .general-oto-streams-div .general-oto-heading-div p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0;
+  display: block;
+}
+
+.general-list-common-div {
+  padding: 0;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.general-list-common-div .general-list-panel-div {
+  padding: 20px 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-common-cre-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb {
+  padding: 0;
+  margin: 0 0 0 0;
+  position: relative;
+  width: 390px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .img-responsive {
+  width: 100%;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-radius: 6px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .video-button-div .video-button-link {
+  position: absolute;
+  top: calc(50% - 30px);
+  right: calc(50% - 30px);
+  height: 60px;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: linear-gradient(121deg, transparent 2%, transparent 100%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 100px;
+  font-size: 22px;
+  color: #fff;
+  padding: 0;
+  outline: none;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .video-button-div .video-button-link .fa {
+  padding: 1px 0 0 4px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .video-button-div .video-button-link:hover {
+  background-image: linear-gradient(121deg, #ef4443 2%, #ef6b18 100%);
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .action-box-abs {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .action-box-abs .action-button {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 32px;
+  color: #ef4443;
+  width: 32px;
+  border: none;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  cursor: pointer;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .action-box-abs .action-button .material-icons {
+  font-size: 21px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div {
+  width: calc(100% - 390px);
+  padding: 10px 20px 10px 30px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .our-content-left {
+  width: 60px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .our-content-left img.img-fluid.user {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row {
+  width: 100%;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .link {
+  color: inherit;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row p {
+  font-weight: 400;
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0;
+  line-height: 1.3;
+  max-width: 600px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row h4 {
+  font-weight: 400;
+  font-size: 12px;
+  display: block;
+  color: white;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box span.icon-span {
+  width: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px 0 0;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box span.icon-span .bg-custom-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box .text {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.3;
+  color: #fff;
+  letter-spacing: 0;
+  width: calc(100% - 55px);
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .link-div {
+  margin: 0 0 20px 0;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .link.link-color {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ff5f00;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div .btn.btn-common-primary {
+  font-size: 18px;
+  line-height: 20px;
+  min-width: 110px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div .btn.btn-common-black {
+  min-width: 110px;
+}
+
+.general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div .mr-10 {
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .schedule-main-creator-section .schedule-main-creator-div {
+    padding: 50px 0 45px 0;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .heading-inner-div {
+    margin: 0 0 20px 0;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .heading-inner-div .content-root h1 {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .heading-inner-div .content-root p {
+    font-size: 14px;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .button-tab-div .button-tab-box .btn.btn-big-black {
+    min-height: 70px;
+    font-size: 16px;
+  }
+  .general-oto-streams-section .general-oto-streams-div .general-oto-heading-div p {
+    font-size: 18px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box {
+    margin: 0 0 25px 0;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb {
+    width: 100%;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div {
+    width: 100%;
+    padding: 15px 0 10px 0;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box {
+    margin: 0 0 15px 0;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box span.icon-span {
+    width: 26px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box span.icon-span .bg-custom-icon {
+    width: 26px;
+    height: 26px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box .text {
+    font-size: 20px;
+    width: calc(100% - 36px);
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row p {
+    font-size: 18px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .link.link-color {
+    font-size: 12px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div .btn.btn-common-primary,
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div .btn.btn-common-black {
+    font-size: 14px;
+    line-height: 20px;
+    min-width: 90px;
+    padding: 2px 20px 1px 20px;
+    min-height: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .schedule-main-creator-section .schedule-main-creator-div {
+    padding: 50px 0 45px 0;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .heading-inner-div {
+    margin: 0 0 20px 0;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .heading-inner-div .content-root h1 {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .heading-inner-div .content-root p {
+    font-size: 14px;
+  }
+  .schedule-main-creator-section .schedule-main-creator-div .button-tab-div .button-tab-box .btn.btn-big-black {
+    min-height: 70px;
+    font-size: 16px;
+  }
+  .general-oto-streams-section .general-oto-streams-div .general-oto-heading-div p {
+    font-size: 18px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box {
+    margin: 0 0 25px 0;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb {
+    width: 290px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .img-responsive {
+    height: 200px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div {
+    width: calc(100% - 290px);
+    padding: 10px 20px 10px 20px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box {
+    margin: 0 0 15px 0;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box span.icon-span {
+    width: 26px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box span.icon-span .bg-custom-icon {
+    width: 26px;
+    height: 26px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .time-box .text {
+    font-size: 20px;
+    width: calc(100% - 36px);
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row p {
+    font-size: 18px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .link.link-color {
+    font-size: 12px;
+  }
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div .btn.btn-common-primary,
+  .general-list-common-div .general-list-panel-div .general-common-cre-box .general-content-cre-div .general-cre-content-row .general-cre-content-top-row .general-btn-div .btn.btn-common-black {
+    font-size: 14px;
+    line-height: 20px;
+    min-width: 90px;
+    padding: 2px 20px 1px 20px;
+    min-height: 40px;
+  }
+}
+/*# sourceMappingURL=creator-home-style.css.map */

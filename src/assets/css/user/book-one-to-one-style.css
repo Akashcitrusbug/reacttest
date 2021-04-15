@@ -1,0 +1,209 @@
+.general-one-to-one-section {
+  padding: 50px 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-section .general-one-to-one-div {
+  padding: 50px 50px 30px 50px;
+  margin: 0;
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .container-general-center {
+  width: 100%;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.general-one-to-one-section .general-one-to-one-div .heading-div {
+  padding: 40px 0 10px 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div h1 {
+  font-weight: 800;
+  font-size: 62px;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0 0 10px 0;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-top {
+  padding: 0 0;
+  margin: 0 0 60px 0;
+  position: relative;
+  min-height: calc(100vh - 600px);
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom {
+  padding: 0 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .mr-20 {
+  margin-right: 20px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn.btn-common-black {
+  min-width: 180px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn-common-primary {
+  min-width: 180px;
+  font-size: 18px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row {
+  margin: 0 0 25px 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0;
+  display: block;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row h3 span.amount-span {
+  font-weight: 700;
+  color: #ff5f00;
+  margin: 0 0 0 5px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-left {
+  width: 35px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-left .img-responsive {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-right {
+  width: calc(100% - 35px);
+  padding: 0 0 0 10px;
+  min-height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-right h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .common-form-div .form-group.mb-30 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .general-one-to-one-section .general-one-to-one-div {
+    padding: 20px 20px 20px 20px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div {
+    padding: 20px 0 15px 0;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div h1 {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row h3 {
+    font-size: 20px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-right h4 {
+    font-size: 16px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .general-one-to-one-section .general-one-to-one-div {
+    padding: 30px 30px 30px 30px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div {
+    padding: 20px 0 20px 0;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div h1 {
+    font-size: 42px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-top {
+    min-height: auto;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=book-one-to-one-style.css.map */

@@ -1,0 +1,231 @@
+.ct-funds-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.ct-funds-section .ct-funds-div {
+  padding: 40px 0;
+  margin: 0;
+  position: relative;
+}
+
+.ct-funds-inner-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.ct-funds-inner-div .ct-funds-content-row {
+  padding: 0;
+  margin: 0 0 10px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background-color: #212121;
+  border-radius: 16px;
+}
+
+.ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box {
+  padding: 30px 20px;
+  margin: 0;
+  position: relative;
+  width: 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  min-height: 195px;
+}
+
+.ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box.border-left-tf {
+  border-left: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box.border-right-tf {
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box .ct-funds-box-row {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box .ct-funds-box-row p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  display: block;
+}
+
+.ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box .ct-funds-box-row h2 {
+  padding: 0;
+  margin: 0 0 0 0;
+  display: block;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 1.3;
+  color: #ff5f00;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.ct-payment-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.ct-payment-div .ct-payment-row {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.ct-payment-div .ct-payment-row .ct-payment-card-box {
+  padding: 55px 20px 50px 20px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #212121;
+  border-radius: 16px;
+}
+
+.ct-payment-div .ct-payment-row .ct-payment-card-box p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #f3f3f3;
+  letter-spacing: 0.4px;
+  text-align: center;
+  display: block;
+  max-width: 560px;
+  margin: 0 auto 30px auto;
+}
+
+.ct-payment-div .ct-payment-row .ct-payment-card-box .center-img-div {
+  padding: 0;
+  margin: 0 0 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ct-payment-div .ct-payment-row .ct-payment-card-box .center-img-div .img-stripe {
+  width: 91px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.ct-payment-div .ct-payment-row .ct-payment-card-box .center-btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px 0 10px 0;
+}
+
+.ct-payment-div .ct-payment-row .ct-payment-card-box .center-btn-div .btn.btn-common-primary.btn-connect {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  border-radius: 13px;
+  min-height: 54px;
+  background-image: linear-gradient(257deg, #ef4443 0%, #ef6b18 87%);
+}
+
+@media (max-width: 767px) {
+  .ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box {
+    width: 100%;
+    min-height: 120px;
+    border: none;
+  }
+  .ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box .ct-funds-box-row p {
+    font-size: 16px;
+  }
+  .ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box .ct-funds-box-row h2 {
+    font-size: 28px;
+  }
+  .ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box.border-right-tf {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  }
+  .ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box.border-left-tf {
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box {
+    padding: 40px 20px 30px 20px;
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box .center-img-div {
+    margin: 0 0 20px 0;
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box p {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin: 0 auto 20px auto;
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box .center-btn-div .btn.btn-common-primary.btn-connect {
+    font-size: 18px;
+    max-width: 170px;
+    min-height: 44px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box .ct-funds-box-row p {
+    font-size: 16px;
+  }
+  .ct-funds-inner-div .ct-funds-content-row .ct-funds-content-box .ct-funds-box-row h2 {
+    font-size: 28px;
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box {
+    padding: 40px 20px 35px 20px;
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box .center-img-div {
+    margin: 0 0 20px 0;
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box p {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+  }
+  .ct-payment-div .ct-payment-row .ct-payment-card-box .center-btn-div .btn.btn-common-primary.btn-connect {
+    font-size: 18px;
+    max-width: 170px;
+    min-height: 44px;
+  }
+}
+/*# sourceMappingURL=creator-transfer-funds-style.css.map */
