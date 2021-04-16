@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Creators = (props) => {
   return (
@@ -24,7 +25,7 @@ const Creators = (props) => {
             </div>
         </a>
         <div class="creators-content-div">
-            <h3><a href="creators-details.html" class="link">{props.name}</a></h3>
+            <h3><Link to='/creator-detail'>{props.name}</Link></h3>
             <h4>Photographer</h4>
         </div>
         </div>

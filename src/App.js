@@ -1,3 +1,4 @@
+import React from 'react';
 import Home from './components/Home/Home';
 import CreatorDetailComponent from './components/CreatorDetails/CreatorDetailsComponent';
 import {
@@ -11,19 +12,11 @@ import LoginComponent from './components/Login/LoginComponent';
 function App() {
   return (
     <Router>
-      <Switch>
       <div className="App">
-      <Route path="/">
-        <Home />
-      </Route>
-      <Route path="/login">
-        <LoginComponent />
-      </Route>
-      <Route path="/creator-detail">
-        <CreatorDetailComponent />
-      </Route>        
+      <Route exact path={"/"} component={Home}></Route>
+      <Route exact path={"/login"} component={LoginComponent}></Route>
+      <Route exact path={"/creator-detail"} component={CreatorDetailComponent}></Route>        
       </div>
-      </Switch>
     </Router>
   );
 }
