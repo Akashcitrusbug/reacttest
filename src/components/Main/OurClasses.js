@@ -2,12 +2,9 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import img1 from '../../assets/images/live-card/img.png';
-import img2 from '../../assets/images/live-card/img-1.png';
-import img3 from '../../assets/images/live-card/img-2.png';
-import img4 from '../../assets/images/live-card/img-3.png';
 import '../../assets/css/owl-slider-style.css';
 import Classes from '../ClassesComponenet/Classes';
+import OurclassData from '../../data/OurClassesData/ourclasses.json';
 
 const OurClasses = () => {
   return (
@@ -69,10 +66,11 @@ const OurClasses = () => {
                       },
                     }}
                   >
-                      <Classes img={img1} />
-                      <Classes img={img2} />
-                      <Classes img={img3} />
-                      <Classes img={img4} />
+                    {
+                        OurclassData.ourclasses.map((ourclass, index)=>{
+                          return <Classes class={ourclass}/>
+                        })
+                      }
                   </OwlCarousel>
               </div>
             </div>

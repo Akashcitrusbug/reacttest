@@ -3,10 +3,8 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Creators from './Creators'
-import img1 from '../../assets/images/creators/creators1.jpg';
-import img2 from '../../assets/images/creators/creators2.jpg';
-import img3 from '../../assets/images/creators/creators3.jpg';
-import img4 from '../../assets/images/creators/creators4.jpg';
+import MeetTheCreatorData from '../../data/MeetTheCreatorData/meetthecreator.json';
+
 
 const MeetTheCreators = () => {
   return (
@@ -31,9 +29,9 @@ const MeetTheCreators = () => {
               <OwlCarousel
                     className="owl-carousel owl-theme meet-the-creators-owl-div"
                     id="our-classes-owl"
-                    loop
+                    loop={true}
                    
-                    margin={15}
+                    margin={10}
                     nav={false}
                     dots={false}
                     stagePadding={0}
@@ -45,7 +43,7 @@ const MeetTheCreators = () => {
                         items: 2,
                         autoplay: true,
                         center: true,
-                        margin: 8,
+                        margin: 3
                       },
                       600: {
                         items: 2.3,
@@ -58,9 +56,11 @@ const MeetTheCreators = () => {
                       },
                     }}
                   >
-                   <Creators name='Benn Tkalcevic' img={img1}/> 
-                   <Creators name='Michael Gray' img={img2} /> 
-                   <Creators name='Keenan Lam' img={img3} /> 
+                      {
+                        MeetTheCreatorData.meetthecreator.map((meetthecreators, index)=>{
+                          return <Creators creator={meetthecreators}/>
+                        })
+                      }
                   </OwlCarousel>
               </div>
             </div>

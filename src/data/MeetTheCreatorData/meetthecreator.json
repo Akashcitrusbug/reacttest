@@ -1,0 +1,19 @@
+{
+    "meetthecreator":[
+    {
+      "id":1,
+      "name":"Benn Tkalcevic",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators1.jpg"
+    },
+    {
+      "id":2,
+      "name":"Michael Gray",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators3.jpg"
+    },
+    {
+      "id":3,
+      "name":"Mitchell Mullins",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators2.jpg"
+    }
+  ]
+}

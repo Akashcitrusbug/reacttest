@@ -3,32 +3,36 @@ import {Link} from 'react-router-dom';
 
 const Creators = (props) => {
   return (
-    <div class="item">
-        <div class="creators-img-mask-slider-box">
-        <a href="creators-details.html" class="creators-img-link">
-            <div class="creators-img-mask-thumb">
-            <div class="img-thumb"> <img src={props.img} class="img-fluid img-responsive" alt="image" /> </div>
-            <div class="view-details-text"> <p><span class="block">View </span> <span class="block">Details</span></p> </div>
+    <div className="item">
+        <Link to='/creator-detail'>
+        <div className="creators-img-mask-slider-box">
+            <a href="creators-details.html" className="creators-img-link">
+                <div className="creators-img-mask-thumb">
+                <div className="img-thumb"> <img src={props.creator.img} className="img-fluid img-responsive" alt="image" /> </div>
+                <div className="view-details-text"> <p><span className="block">View </span> <span className="block">Details</span></p> </div>
+                </div>
+            </a>
+            <div className="creators-content-div">
+                <h3><a href="creators-details.html" className="link">{props.creator.name}</a></h3>
+                <h4>Photographer</h4>
             </div>
-        </a>
-        <div class="creators-content-div">
-            <h3><a href="creators-details.html" class="link">{props.name}</a></h3>
-            <h4>Photographer</h4>
         </div>
-        </div>
+        </Link>
 
-        <div class="creators-img-mask-slider-box">
-        <a href="creators-details.html" class="creators-img-link">
-            <div class="creators-img-mask-thumb">
-            <div class="img-thumb"> <img src={props.img} class="img-fluid img-responsive" alt="image" /> </div>
-            <div class="view-details-text"> <p><span class="block">View </span> <span class="block">Details</span></p> </div>
+        <Link to='/creator-detail'>
+            <div className="creators-img-mask-slider-box">
+                <a href="creators-details.html" className="creators-img-link">
+                    <div className="creators-img-mask-thumb">
+                    <div className="img-thumb"> <img src={props.creator.img} className="img-fluid img-responsive" alt="image" /> </div>
+                    <div className="view-details-text"> <p><span className="block">View </span> <span className="block">Details</span></p> </div>
+                    </div>
+                </a>
+                <div className="creators-content-div">
+                    <h3>{props.creator.name}</h3>
+                    <h4>Photographer</h4>
+                </div>
             </div>
-        </a>
-        <div class="creators-content-div">
-            <h3><Link to='/creator-detail'>{props.name}</Link></h3>
-            <h4>Photographer</h4>
-        </div>
-        </div>
+        </Link>
     </div>
   );
 };

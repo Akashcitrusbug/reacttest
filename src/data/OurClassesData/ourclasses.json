@@ -1,0 +1,36 @@
+{
+    "ourclasses":[
+    {
+      "id":1,
+      "name":"Mike Visuals",
+      "class_detail":"How to learn photography in an efficient way.",
+      "expertise":"Visual Expert",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/live-card/img.png",
+      "class_creator_img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators3.jpg"
+    },
+    {
+      "id":2,
+      "name":"Mike Visuals",
+      "class_detail":"How to learn photography in an efficient way.",
+      "expertise":"Visual Expert",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/live-card/img-1.png",
+      "class_creator_img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators3.jpg"
+    },
+    {
+      "id":3,
+      "name":"Mike Visuals",
+      "class_detail":"How to learn photography in an efficient way.",
+      "expertise":"Visual Expert",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/live-card/img-2.png",
+      "class_creator_img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators3.jpg"
+    },
+    {
+      "id":4,
+      "name":"Mike Visuals",
+      "class_detail":"How to learn photography in an efficient way.",
+      "expertise":"Visual Expert",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/live-card/img-3.png",
+      "class_creator_img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators3.jpg"
+    }
+  ]
+}
