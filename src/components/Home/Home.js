@@ -7,11 +7,11 @@ import '../../assets/css/footer.css';
 
 const Home = () => {
     return (
-        <>
+        <div id="wrapper" className="wrapper home-wrapper main-bg-color">
         <Header />
         <Main />
         <Footer />
-        </>
+        </div>
     )
 }
 

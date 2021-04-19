@@ -1,12 +1,33 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import '../../assets/css/header.css';
 import Logo from '../../assets/images/white-logo-1.png';
 import { Link } from "react-router-dom";
 const Header = () => {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffset(window.pageYOffset);
+    };
+  });
+
+  const element = document.querySelector(".header-div");
+  const handlePageScroll = () => {
+    if (element && offset >= 190) {
+          element.classList.add("header-bgcolor")
+          element.classList.add("slideInDown")
+          element.classList.add("animated");
+    }
+    if (element && offset < 50) {
+      element.classList.remove("header-bgcolor")
+      element.classList.remove("slideInDown")
+      element.classList.remove("animated");
+    }
+  };
   return (
     <>
     <header>
-    <div className="header-div no-collapse-header clearfix" >
+    <div className="header-div no-collapse-header clearfix" onScroll={handlePageScroll()}>
       <div className="inner-top-header-div clearfix">
         <div className="container container-1200">
             <div className="row">

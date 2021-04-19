@@ -1,0 +1,22 @@
+{
+    "similarcreator":[
+    {
+      "id":1,
+      "name":"Mitchell Mullins",
+      "occupation":"Filmmaker",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators1.jpg"
+    },
+    {
+      "id":2,
+      "name":"Nolan Omura",
+      "occupation":"Filmmaker",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators2.jpg"
+    },
+    {
+      "id":3,
+      "name":"Benn Tkalcevic",
+      "occupation":"Filmmaker",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/creators/creators4.jpg"
+    }
+  ]
+}

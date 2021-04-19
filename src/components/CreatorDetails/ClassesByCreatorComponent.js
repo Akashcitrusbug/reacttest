@@ -3,11 +3,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Classes from './Classes';
-import img1 from '../../assets/images/slider-img/img-01.jpg'
-import img2 from '../../assets/images/slider-img/img-02.jpg'
-import img3 from '../../assets/images/slider-img/img-03.jpg'
-import img4 from '../../assets/images/slider-img/img-04.jpg'
-import img5 from '../../assets/images/slider-img/img-05.jpg'
+import SingleCreatoClasses from '../../data/CreatorDetailData/SingleCreatorClass/SingleCreatorClassData.json'
 
 const ClassesByCreatorComponent = () => {
         return (
@@ -41,12 +37,11 @@ const ClassesByCreatorComponent = () => {
                                 margin={15}
                                 dots={false}
                                 >
-                                    <Classes img={img1} />
-                                    <Classes img={img2} />
-                                    <Classes img={img3} />
-                                    <Classes img={img4} />
-                                    <Classes img={img5} />
-                                    <Classes img={img1} />
+                                    {
+                                        SingleCreatoClasses.singlecreatorclass.map((classes,index)=>{
+                                            return <Classes classdata={classes} />
+                                        })
+                                    }
                             </OwlCarousel>
  
                             </div>

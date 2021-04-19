@@ -1,11 +1,9 @@
 import React from 'react';
 import SimilarCreatorsSectionItem from './SimilarCreatorsSectionItem';
-import img1 from '../../assets/images/creators/creators1.jpg';
-import img2 from '../../assets/images/creators/creators2.jpg';
-import img4 from '../../assets/images/creators/creators4.jpg';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import Similarcreatordata from '../../data/CreatorDetailData/SimilrCreator/SimilarCreatorData.json';
 
 
 const MaterialCreatorsSectionComponent = () => {
@@ -39,9 +37,11 @@ const MaterialCreatorsSectionComponent = () => {
                                     margin={10}
                                     dots={false}
                                     >
-                                        <SimilarCreatorsSectionItem img={img4} name='Mitchell Mullins' />
-                                        <SimilarCreatorsSectionItem img={img2} name='Nolan Omura' />
-                                        <SimilarCreatorsSectionItem img={img1} name='Benn Tkalcevic' />
+                                        {
+                                            Similarcreatordata.similarcreator.map((similarcreator,index)=>{
+                                                return <SimilarCreatorsSectionItem similarcreatordata={similarcreator} />
+                                            })
+                                        }
                                 </OwlCarousel>
                                 </div>
 

@@ -3,9 +3,7 @@ import UpcomingLiveStreamItem from './UpcomingLiveStramItem';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import img1 from '../../assets/images/live-streams/ls-image-01.jpg';
-import img2 from '../../assets/images/live-streams/ls-image-02.jpg';
-
+import UpcomingLiveStreamData from '../../data/CreatorDetailData/UpcomingLiveEvent/UpcomingLiveEventData.json';
 
 const UpcomingLiveStream = () => {
     return (
@@ -39,9 +37,11 @@ const UpcomingLiveStream = () => {
                             autoWidth
                             dots={false}
                             >
-                                <UpcomingLiveStreamItem img={img1}/>
-                                <UpcomingLiveStreamItem img={img2}/>
-
+                                {
+                                    UpcomingLiveStreamData.upcomingliveevent.map((upcomingstream,index)=>{
+                                        return <UpcomingLiveStreamItem streamdata={upcomingstream} />
+                                    })
+                                }
                         </OwlCarousel>
                         </div>
 

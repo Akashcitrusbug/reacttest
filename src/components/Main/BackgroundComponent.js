@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerImage from '../../assets/images/latest/header-graphic.png';
+import {Link} from "react-scroll";
 const BackgroundComponent = () => {
   return (
     <div className="banner-div">
@@ -42,9 +43,9 @@ const BackgroundComponent = () => {
           <div className="row">
             <div className="col-lg-12 col-md-12">
               <div className="center-bottom-arrow-div">
-                <a href="#our-classes-section" className="rounded-arrow-icon-btn">
-                  <span className="material-icons"> keyboard_arrow_down </span>
-                </a>
+                <Link to="our-classes-section" className="rounded-arrow-icon-btn">
+                   <span className="material-icons"> keyboard_arrow_down </span>
+                </Link>
               </div>
             </div>
           </div>

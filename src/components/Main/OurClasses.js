@@ -1,4 +1,5 @@
 import React from 'react';
+import Select from 'react-select';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -7,6 +8,11 @@ import Classes from '../ClassesComponenet/Classes';
 import OurclassData from '../../data/OurClassesData/ourclasses.json';
 
 const OurClasses = () => {
+  const classestype = [
+    { value: "I'm yet to think", label: "I'm yet to think" },
+    { value: "Option 2", label: "Option 2" },
+    { value: "Option 3", label: "Option 3" },
+  ];
   return (
     <div className="our-classes-div">
       <div className="heading-div">
@@ -21,6 +27,12 @@ const OurClasses = () => {
                   <div className="heading-title-right">
                     <div className="form-group select2-form-group select2-new-group">
                       <div className="select-box select-custom2 select-custom2-general round-12">
+                        <Select
+                          className="js-select2"
+                          options={classestype}
+                          id="select-filter"
+                        >
+                        </Select>
 
                       </div>
                     </div>

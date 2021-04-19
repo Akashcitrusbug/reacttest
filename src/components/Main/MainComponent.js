@@ -20,7 +20,7 @@ const MainComponent = () => {
       <section className="main-banner-section">
         <BackgroundComponent />
       </section>
-      <section className="our-classes-section">
+      <section className="our-classes-section" id="our-classes-section">
         <OurClasses />
       </section>
       <div className="block-classes-common-pattern-root">

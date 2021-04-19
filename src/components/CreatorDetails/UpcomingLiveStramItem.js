@@ -7,7 +7,7 @@ const UpcomingLiveStreamItem = (props) => {
         <div class="item">  
             <div class="live-streams-img-slider-box">
             <div class="live-streams-img-thumb">
-                <div class="img-thumb"> <img src={props.img} class="img-fluid img-responsive" alt="image" /> </div>
+                <div class="img-thumb"> <img src={props.streamdata.img} class="img-fluid img-responsive" alt="image" /> </div>
                 <div class="video-overlay-content-div">
                 <div class="video-overlay-content-row">
                     <div class="video-overlay-content-left">
@@ -31,14 +31,14 @@ const UpcomingLiveStreamItem = (props) => {
                 <div class="live-streams-content-left">
 
                     <div class="user-top-box">
-                    <div class="img-thumb"> <img src={image} class="img-fluid img-responsive" alt="testimonials" /> </div>
+                    <div class="img-thumb"> <img src={props.streamdata.profile_img} class="img-fluid img-responsive" alt="testimonials" /> </div>
                     <div class="text-content-div">
-                        <h3><a href="creator-class-detail.html" class="link">Vivamus suscipit tortor eget felis porttitor volutpat Mauris blandit aliquet elit</a></h3>
+                        <h3><a href="creator-class-detail.html" class="link">{props.streamdata.description}</a></h3>
                         <div class="other-info-row-div">
                         <div class="time-row">
                             <div class="time-box">
                             <span class="icon-span"><i class="bg-custom-icon calendar-time-icon"></i></span>
-                            <span class="text">Sept 12, 9:00 PM EST <span class="dot-span">•</span> <a href="#" class="link">Michael Gray</a></span>
+                            <span class="text">{props.streamdata.time} <span class="dot-span">•</span> <a href="#" class="link">{props.streamdata.name}</a></span>
                             </div>
                         </div>
                         </div>

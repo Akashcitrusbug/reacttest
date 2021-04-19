@@ -1,0 +1,34 @@
+{
+    "materialbycreator":[
+    {
+      "id":1,
+      "name":"Photo Presets",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/materials/materials-img-01.jpg"
+    },
+    {
+      "id":2,
+      "name":"Video LUTs",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/materials/materials-img-02.jpg"
+    },
+    {
+      "id":3,
+      "name":"SFX",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/materials/materials-img-03.jpg"
+    },
+    {
+      "id":4,
+      "name":"Photoshop Brushes",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/materials/materials-img-04.jpg"
+    },
+    {
+      "id":5,
+      "name":"Overlays",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/materials/materials-img-05.jpg"
+    },
+    {
+      "id":6,
+      "name":"E-Books",
+      "img":"http://65.1.29.208/HTML/creator-classes-html/assets/images/materials/materials-img-06.jpg"
+    }
+  ]
+}

@@ -1,14 +1,9 @@
 import React from 'react';
 import MaterialcreatorSectionItem from './MaterialcreatorSectionItem';
-import img1 from '../../assets/images/materials/materials-img-01.jpg';
-import img2 from '../../assets/images/materials/materials-img-02.jpg';
-import img3 from '../../assets/images/materials/materials-img-03.jpg';
-import img4 from '../../assets/images/materials/materials-img-04.jpg';
-import img5 from '../../assets/images/materials/materials-img-05.jpg';
-import img6 from '../../assets/images/materials/materials-img-06.jpg';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import MaterialByCreatorData from '../../data/CreatorDetailData/MaterialByCreator/MaterialByCreatorData.json';
 
 
 const MaterialCreatorsSectionComponent = () => {
@@ -48,12 +43,11 @@ const MaterialCreatorsSectionComponent = () => {
                             margin={-150}
                             dots={false}
                         >
-                                <MaterialcreatorSectionItem img={img1} name='Photo Presets' />
-                                <MaterialcreatorSectionItem img={img2} name='Video LUTs' />
-                                <MaterialcreatorSectionItem img={img3} name='SFX' />
-                                <MaterialcreatorSectionItem img={img4} name='Photoshop Brushes' />
-                                <MaterialcreatorSectionItem img={img5} name='Overlays' />
-                                <MaterialcreatorSectionItem img={img6} name='E-Books' />
+                                {
+                                    MaterialByCreatorData.materialbycreator.map((materialdata,index)=>{
+                                        return <MaterialcreatorSectionItem materialbycreatordata={materialdata} />
+                                    })
+                                }
                             </OwlCarousel>
                             </div>    
                             </div>
