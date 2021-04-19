@@ -1,7 +1,55 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import logo from '../../assets/images/logo.png';
 
 const RightSideLoginComponent = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [emailErr, setEmailErr] = useState({});
+    const [passwordErr, setPasswordErr] = useState({});
+    
+    const onSubmit = (e) => {
+        // e.preventDefault();
+
+        const isValid = formValidation();
+        if (isValid) {
+            setEmail("");
+            setPassword("");
+            console.log('Login modal form is valid')
+        }
+        else{
+            console.log("Form is not valid")
+        }
+    }
+
+    const formValidation = () => {
+        const emailErr = {};
+        const passwordErr = {};
+        let isValid = true;
+    
+        if (email.trim().length === 0) {
+          emailErr.emailRequired = "Email is required!";
+          isValid = false;
+        }
+    
+        if (!email.includes("@")) {
+          emailErr.emailInvalid = "Email address is not valid!";
+          isValid = false;
+        }
+    
+        if (password.trim().length < 6) {
+          passwordErr.passwordShort = "Password is too short!";
+          isValid = false;
+        }
+    
+        if (password.trim().length > 12) {
+          passwordErr.passwordLong = "Password is too long!";
+          isValid = false;
+        }
+    
+        setEmailErr(emailErr);
+        setPasswordErr(passwordErr);
+        return isValid;
+      };
     return (
         <div className="auth-right-side">
             <div className="auth-content-div">
@@ -50,8 +98,16 @@ const RightSideLoginComponent = () => {
                             <div className="form-group-custom form-group-icon">
                                 <span className="custom-icon"><span
                                     className="material-icons user-rounded-icon">account_circle</span></span>
-                                <input type="text" className="form-control" placeholder="Username or email" />
+                                <input type="text" className="form-control" placeholder="Username or email" value={email} 
+                                    onChange={(e) => {
+                                        setEmail(e.target.value);
+                                        }} />
                                 <div className="form-group-control">
+                                {Object.keys(emailErr).map((key) => {
+                                                return (
+                                                <span style={{ color: "red" }}>{emailErr[key]}</span>
+                                                );
+                                            })}
                                 </div>
                             </div>
                         </div>
@@ -62,7 +118,10 @@ const RightSideLoginComponent = () => {
                                 className="material-icons pass-key-icon">vpn_key</span></span>
                             <div className="form-group-control">
                             <input type="password" id="password01" className="form-control"
-                                placeholder="Password" />
+                                placeholder="Password" value={password}
+                                onChange={(e) => {
+                                    setPassword(e.target.value);
+                                  }} />
                             </div>
                             <span className="icon-group">
                             <button type="button" id="show_password01" name="show_password"
@@ -71,6 +130,11 @@ const RightSideLoginComponent = () => {
                             </button>
                             </span>
                         </div>
+                        {Object.keys(passwordErr).map((key) => {
+                                                return (
+                                                <span style={{ color: "red" }}>{passwordErr[key]}</span>
+                                                );
+                                            })}
                         </div>
 
                         <div className="col-xl-12 col-lg-12 col-md-12 plr-8">
@@ -82,7 +146,7 @@ const RightSideLoginComponent = () => {
 
                         <div className="col-xl-12 col-lg-12 col-md-12 plr-8">
                         <div className="general-form-btn">
-                            <button type="button" className="btn btn-common-primary btn-login">Log in</button>
+                            <button type="button" className="btn btn-common-primary btn-login" onClick={onSubmit}>Log in</button>
                         </div>
                         </div>
 

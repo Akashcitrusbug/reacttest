@@ -1,7 +1,11 @@
-import React from 'react';
-import image from '../../assets/images/creators/creators3.jpg';
+import React, {useEffect, useState} from 'react';
+import LoginModal from '../../modal/LoginModal';
 
 const UpcomingLiveStreamItem = (props) => {
+    const [loginShow, setLoginShow] = useState(false);
+
+    const handleLoginShow = () => setLoginShow(true);
+    const handleLoginClose = () => setLoginShow(false);
     return (
         <>
         <div class="item">  
@@ -48,7 +52,7 @@ const UpcomingLiveStreamItem = (props) => {
                 </div>
                 <div class="live-streams-content-right">
                     <div class="book-button-div">
-                    <div class="btn-row"> <a href="#" class="btn btn-common-primary" data-toggle="modal" data-target="#login-to-book-modal"> <i class="bg-custom-icon invoice-icon"></i> Book now </a> </div>
+                    <div class="btn-row"> <a href="#" class="btn btn-common-primary" data-toggle="modal" data-target="#login-to-book-modal" onClick={handleLoginShow}> <i class="bg-custom-icon invoice-icon"></i> Book now </a> </div>
                     <div class="text-center-row">
                         <p class="text-italic">Hurry up! Only few seats are left</p>
                     </div>
@@ -59,6 +63,8 @@ const UpcomingLiveStreamItem = (props) => {
             </div>
             </div>
         </div>
+        
+        <LoginModal show={loginShow} onHide={handleLoginClose} />
         </>
     )
 

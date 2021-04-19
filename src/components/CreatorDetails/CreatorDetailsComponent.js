@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect,useState} from 'react';
 import Header from '../Header/Header';
 import CreatorDetailFooter from './CreatorDetailFooter';
 import InnerBannerComponent from './InnerBannerComponent';
@@ -7,6 +7,7 @@ import ClassesByCreatorComponent from './ClassesByCreatorComponent';
 import UpcomingLiveStream from './UpcomingLiveStreamComponent';
 import MaterialCreatorsSectionComponent from './MaterialCreatorsSectionComponent';
 import SimilarCreatorsSectionComponent from './SimilarCreatorsSectionComponent';
+
 
 import '../../assets/css/bootstrap.min.css';
 import '../../assets/fonts/gilroy/gilroy-style.css';

@@ -5,6 +5,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Classes from './Classes';
 import SingleCreatoClasses from '../../data/CreatorDetailData/SingleCreatorClass/SingleCreatorClassData.json'
 
+
 const ClassesByCreatorComponent = () => {
         return (
             <>
